@@ -1,0 +1,109 @@
+#top{
+	height:50px;
+	width:100%;
+	//background-color:lightblue; 
+}
+#top-left{
+	
+	float:left;
+	margin-top:10px; 
+}
+#top-right{
+	float:right;
+	margin-top:10px;
+	margin-right:10px;  
+}
+body{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#drop{
+	height:26px;
+	width:120px;
+}
+#nav1{
+
+	height:40px;
+	width:100%;
+	
+}
+.btn{
+	width: 265px;
+	background-color: lightgrey;
+
+}
+.btn:hover{
+	background-color:#005EA1;
+
+}
+#nav2{
+
+	height:35px;
+	width:100%;
+	//background-color: lightblue;
+	
+}
+#left{
+	height:700px;
+	width:800px;
+	float:left;
+	margin-top:10px;
+}
+#in1{
+	height:100px;
+	width:100%;
+	background-color: white;
+	float:left;
+	
+}
+#in2{
+	height:100px;
+	width:100%;
+	background-color: lightgrey;
+	float:left;
+	
+}
+#right{
+	height:300px;
+	width:529px;
+	background-color: lightblue;
+	float: right;
+	margin-top:10px;
+	padding-left: 50px;
+ 
+}
+#rightdown{
+	background-image:url(images\offer.gif);
+	height:300px;
+	width:529px;
+	float: right;
+}
+
+.image1{
+	height: 100%;
+	width:100%;
+}
+
+#bottom{
+	height:200px;
+	width:100%;
+	background-color: lightblue;
+	margin-top: 750px;
+
+}
+#h{
+	background-image:url(images\car1.gif);
+}
+.image{
+	height: 75px;
+	width:100px;
+}
+.imgman{
+	height: 25px;
+}
+h3:hover{
+	color:blue;
+}
+h5:hover{
+	color:blue;
+}

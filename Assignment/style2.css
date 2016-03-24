@@ -1,0 +1,162 @@
+ #container{
+            width: 100%;
+            height:100%;
+            
+
+                    }
+        .top1{
+            background-color:white;
+            width:100%;
+            height:30px;
+            margin:0px 25px;
+            
+        }
+        #logo{
+            float:left;
+            padding-right:50px;
+        }
+        #tagline {font-size:10px;
+                 margin-left:150px;
+            color:blue;
+         }
+        #us{
+           float:left;
+            margin-top:15px;
+            padding-right:0px;
+            margin-left:50px;
+                        
+               }
+select{
+    width:200px;
+}
+
+        #eng{
+            float:left;
+            margin-left:10px;
+             margin-top:15px;
+            margin-right:0px;
+        }
+        #search1{
+            float:left;
+            margin-left:35px;
+            margin-top:15px;
+            }
+
+
+                .nav1{
+            margin-top:80px;
+            width:100%;
+            margin-left:10px 50px;
+            height:15px;
+                    }
+         
+
+        .class.not(.active){
+            background-color:#F2F2F2;
+        }
+      ul {
+    list-style-type: none;
+margin:0px;
+padding:0px;
+        overflow: hidden;
+          background-color:darkgray;
+          
+          
+}
+
+li {
+    float: left;
+    font-size:15px;
+    color:gray;
+    padding-right:40px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: #0076B6;
+}
+                #step1{
+            width:200px;
+            color:blue;
+                    padding-right:30px;
+        }
+         #step2{
+            width:200px;
+            color:gray;
+        }
+         #step3{
+            width:200px;
+            color:lightgray;
+        }
+         #step4{
+            width:200px;
+            color:lightgray;
+        }
+        #select1{
+            background-color:blue;
+            text-decoration-color: white;
+        }
+
+        #nav2 {
+            margin-top:60px;
+            width: 100%;
+            height:35px;
+            }
+#in1{
+	height:100px;
+	width:100%;
+	background-color: white;
+	float:left;
+
+        
+#icon1{
+    width:200px;
+}
+    #left1{
+        width:70%;
+        height:800px;
+    
+    }
+     #right1{
+        width:30%;
+        height:800px;
+    
+    }
+   
+        
+     .odd1{
+	height:100px;
+	width:800px;
+	background-color: white;
+    float:left;
+         margin-left:50px;
+
+	
+}
+    .floating-box{
+        float: left;
+    width: 200px;
+    height: 100pxpx;
+    margin: 10px;
+
+    }
+.even1{
+	margin-top:10px;
+	height:100px;
+    width:800px;
+    background-color:lightgrey;
+	float:left;
+}
+
+    #imgman{
+    height: 25px;
+    }

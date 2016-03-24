@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>3. Click button to calculate which will capture return values from independent functions - sum, multiply, modulus.</p>
+
+<button onclick="sum2()"> Click here for sum</button>
+
+<button onclick="multiply2()"> Click here for multiplication</button>
+
+<button onclick="modulo2()"> Click here for modulo.</button>
+
+<form>
+    
+    Enter number one: <input type="text" vaue="" id="num1">
+    
+    Enter number two: <input type="text" vaue="" id="num2">
+    
+    
+    
+    
+</form>
+
+
+
+
+<script>
+function sum2() {
+    var x = parseInt(document.getElementById("num1").value);
+    var y= parseInt(document.getElementById("num2").value);
+    
+    alert( x + y )
+       
+  
+}
+    
+
+ function multiply2() {
+    var x = parseInt(document.getElementById("num1").value);
+    var y= parseInt(document.getElementById("num2").value);
+    
+    alert(x * y )
+       
+  
+}   
+      
+
+
+
+        
+    function modulo2() {
+    var x = parseInt(document.getElementById("num1").value);
+    var y= parseInt(document.getElementById("num2").value);
+    
+    alert( x % y )
+       
+  
+}  
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+

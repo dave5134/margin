@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>3. Click button to calculate which will capture return values from independent functions - sum, multiply, modulus.</p>
+
+<button onclick="alert(numX())"> Click here for sum</button> <br>
+
+<button onclick="alert(numX())"> Click here for multiplication</button><br>
+
+<button onclick="alert(numX())"> Click here for modulo.</button>
+
+<form>
+    Enter first number: <input type="number" id="num1" value="" ><br>
+    Enter second number:<input type="number"  id="num2" value=""><br>
+ 
+</form>
+
+  
+
+<script>
+    function numX(){
+    
+    var a = parseInt(document.getElementById("num1").value);
+    var b = parseInt(document.getElementById("num2").value); 
+        
+     sum2(a,b);
+        multiply2(a,b);
+        modulo2(a,b);
+    
+    }
+        
+function sum2(a,b) {
+    alert(a + b);   
+  
+}   
+
+ function multiply2() {
+    return a * b;   
+  
+} 
+    
+function modulo2() {
+    return a % b;   
+  
+}  
+
+
+</script>
+
+</body>
+</html>
+
+ n
+
+
+
+
